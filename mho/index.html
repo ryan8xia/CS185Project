@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>HW5 Matthew Ho</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" />
+  <link href="./Carousel Template for Bootstrap_files/carousel.css" rel="stylesheet">
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Douglas Family Preserve</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#visit">Visiting</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#wildlife">Wildlife</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#directions">Directions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+<body onresize="ReDrawChart()">
+  <a name="page-top"></a>
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/2/29/Aerial-DouglasFamilyPres.jpg" alt="First slide" style="filter: brightness(50%)">
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1>Beautiful Coast</h1>
+            <p>There are several bluffs overlooking the beach, popular for watching whales and dolphins.</p>
+            <p><a class="btn btn-lg btn-primary" href="#about" role="button">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://nobodyhikesinla.files.wordpress.com/2015/09/dfp-footbridge.jpg" alt="Second slide" style="filter: brightness(50%)">
+        <div class="carousel-caption text-left">
+            <h1>Hiking Trails</h1>
+            <p>Arroyo Burro Beach Loop is a 1.3 mile lightly trafficked loop trail that features beautiful wild flowers and is good for all skill levels.</p>
+            <p><a class="btn btn-lg btn-primary" href="#about" role="button">Learn More</a></p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://songsofthewilderness.files.wordpress.com/2011/01/img_0284.jpg" alt="Third slide" style="filter: brightness(50%)">
+        <div class="carousel-caption text-left">
+            <h1>Unique Wildlife</h1>
+            <p>The park includes a variety of trees, including coastal live oaks, Monterey pine and Monterey cypress. </p>
+            <p><a class="btn btn-lg btn-primary" href="#wildlife" role="button">Learn More</a></p>
+          </div>
+      </div>
+    </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 style="font-size: 3em;">About the Park</h2>
+          <p class="lead">The 70-acre Douglas Family Preserve (DFP) is located near the intersection of Cliff Drive and Las Positas Road 
+            in the Mesa neighborhood. In 1996, the Preserve was acquired by the Trust for Public Lands and transferred to the City a year later. 
+            This park contains many biomes including:</p>
+          <ul style="font-size:20px;">
+            <li>Southern Oak Woodland</li>
+            <li>Coastal Bluff Scrub</li>
+            <li>Coastal Sage Scrub</li>
+            <li>Riparian (creek) and Annual Grassland</li>
+          </ul>
+          <p class="lead">Near the east entrance, just north of the bluffs and main path, there is an area with plantings of
+             many native plant species. Foundations of earlier developments and buildings may be seen in several places, along with remnants 
+             of paved roads. Several species of birds and animals may be seen at different times of the year.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="visit" class="bg-light">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-8 mx-auto">
+              <div class="container d-flex h-100">
+                <img class="row justify-content-center align-self-center d-block rounded-circle" style="width: 100%;" src="https://greatruns.com/wp-content/uploads/2017/06/Hendrys-Beach-Loop-Photo-by-Jessy-Lynn-Perkins.jpg">
+              </div>
+            </div>
+        <div class="col-lg-8 mx-auto">
+          <div class="d-flex justify-content-center">
+              <div>
+                  <h2 style="font-size: 3em; padding-top:2rem;">Visiting</h2>
+              </div>
+            </div>
+          <p class="lead">The DFP is an undeveloped open space that provides passive recreation opportunities, such as
+            hiking, dog walking, wildlife viewing, and bicycle riding. Off-leash dog use is allowed within the park in
+            select areas.
+            Hang glider opportunities are available for experienced users in one area of the park.</p>
+            <p class="lead">The Arroyo Burro Beach loop is a lovely run combining a great stretch of beach with some stairs and a mesa. Located just north of downtown, 
+              Arroyo Burro Beach County Park (also known as Hendry’s Beach) offers a great stretch of beach for running. Go at low tide for optimum sand conditions, 
+              and take note: you might want to start the first section of beach shoe-free — a river flowing into the ocean here can sometimes be deep, depending on tides 
+              and rains. After almost a mile of beach running, you’ll be rewarded with this loop’s signature obstacle: a steep staircase climbing the dunes to Mesa Lane. 
+              After a brief stint on paved roads, this run returns via the well-kept paths of Douglas Family Preserve.</p>
+          <p><a class="btn btn-secondary" href="#directions" role="button">Find directions »</a></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="wildlife">
+    <div class="container marketing">
+      <div class="d-flex justify-content-center">
+        <div>
+            <h2 style="font-size: 3em; padding-bottom:3rem; font-weight: 500;">Wildlife</h2>
+        </div>
+      </div>
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded-circle"
+            src="https://www.monarch-butterfly.com/images/x2butterflies.jpg.pagespeed.ic.5WG82Fug5L.jpg"
+            alt="Generic placeholder image" width="140" height="140">
+          <h2>Monarch Butterfly</h2>
+          <p>Its wings feature an easily recognizable black, orange, and white pattern, with a wingspan of 8.9–10.2 cm (​3 1⁄2–4 in). The eastern North American monarch population is notable for its annual southward late-summer/autumn migration from the northern and central United States and southern Canada to Florida and Mexico.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle"
+            src="http://eattheplanet.org/wp-content/uploads/2014/02/Pinus_strobus_trees.jpg"
+            alt="Generic placeholder image" width="140" height="140">
+          <h2>Monterey Pine</h2>
+          <p>The Monterey pine is a speies of pine native to the central coast of California and Mexico. The Monterey pine is the most wildly planted pine in the world. They are currently endangered
+            due to the spread of fungal disease.  
+          </p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle"
+            src="https://www.czs.org/getattachment/Brookfield-ZOO/Zoo-Animals/Seven-Seas/Bottlenose-Dolphin/Dolphins_402x500.jpg.aspx"
+            alt="Generic placeholder image" width="140" height="140">
+          <h2>Dolphin</h2>
+          <p>The Common Dolphin are frequently sighted in the Arroyo Burro Beach loop. The coasts of Santa Barbara are home to variety of sea life.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+  </section>
+  <section id="directions" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="container rounded p-2">
+          <div class="col border shadow-sm rounded">
+            <div class="row bg-dark text-white">
+              <div class="col p-2">
+                <h4>
+                  Find Directions
+                </h4>
+              </div>
+            </div>
+            <div class="row p-2">
+              <div class="col pt-1">
+                  <text style="font-size: 1.25em;">Address: Borton Dr, Santa Barbara, CA 93109
+                    </text>
+              </div>
+            </div>
+            <div class="row p-2">
+              <div class="col" style="min-width:400px;">
+                <div id="myMap" style="position:relative;width:100%;height:45vh;"></div>
+              </div>
+              <div class="p-4">
+                <div id="directionsInputContainer">  </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js"></script>
+  <script src="./script.js"></script>
+  <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AmAPKXXZfBlyczMJv9jfmlrWwJOV98ChPe8m78ytUrpGkmA57gWk_9qNBQogqDYO ' async defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+
+</html>
