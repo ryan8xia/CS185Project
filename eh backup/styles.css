@@ -1,0 +1,66 @@
+div.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+ol {
+    text-align: left;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.container-fluid,
+.row-fluid { height: inherit; }
+
+.full{
+    height: 100vh;
+}
+
+@media (min-width: 12px) {
+    .container{
+        max-width: 97px;
+    }
+}
+
+#create{
+    
+    height: 50vh;
+    min-height:300px;
+    background-color: rgba(255,0,0,0.1); 
+   
+    /* style="background:transparent url('https://media.gettyimages.com/photos/abstract-soft-red-background-picture-id939609996?b=1&k=6&m=939609996&s=612x612&w=0&h=TY0c8rmoyTDQhKj-pcptBJy4do5BBCMRjw45F0UhptY=') no-repeat center center /cover" */
+}
+
+#create-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://media.gettyimages.com/photos/abstract-soft-red-background-picture-id939609996?b=1&k=6&m=939609996&s=612x612&w=0&h=TY0c8rmoyTDQhKj-pcptBJy4do5BBCMRjw45F0UhptY=");
+    background-image: url("https://media.gettyimages.com/photos/abstract-soft-red-background-picture-id939609996?b=1&k=6&m=939609996&s=612x612&w=0&h=TY0c8rmoyTDQhKj-pcptBJy4do5BBCMRjw45F0UhptY=");
+    /* style="background:transparent url('https://media.gettyimages.com/photos/abstract-soft-red-background-picture-id939609996?b=1&k=6&m=939609996&s=612x612&w=0&h=TY0c8rmoyTDQhKj-pcptBJy4do5BBCMRjw45F0UhptY=') no-repeat center center /cover" */
+}
+
+
+
+
+#join{
+
+    height: 50vh;
+    min-height:300px;
+    background-color: rgba(255,0,0,0.1); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://media.gettyimages.com/photos/abstract-soft-red-background-picture-id939609996?b=1&k=6&m=939609996&s=612x612&w=0&h=TY0c8rmoyTDQhKj-pcptBJy4do5BBCMRjw45F0UhptY=");
+    /* style="background:transparent url('https://media.gettyimages.com/photos/abstract-soft-red-background-picture-id939609996?b=1&k=6&m=939609996&s=612x612&w=0&h=TY0c8rmoyTDQhKj-pcptBJy4do5BBCMRjw45F0UhptY=') no-repeat center center /cover" */
+}
+
